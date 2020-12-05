@@ -24,8 +24,11 @@ hr{
     margin: auto;
 }
 .links{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+  /*  margin-top: 1rem;
+    margin-bottom: 1rem;*/
 }
 
 .primary-link{
@@ -76,6 +79,7 @@ hr{
 }
 
 .hero{
+    padding-top: 5rem;
     padding: 2rem;
 }
 
@@ -113,6 +117,11 @@ hr{
     color: white;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .links{
