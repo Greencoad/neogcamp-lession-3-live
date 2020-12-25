@@ -13,6 +13,10 @@ body{
     line-height: 2;
 }
 
+p{
+    text-align: center;
+}
+
 hr{
     margin: 1.5rem 0rem;
 }
@@ -29,14 +33,15 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-  /*  margin-top: 1rem;
-    margin-bottom: 1rem;*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    text-align: center;
 }
 
 .secondary-link{
@@ -104,8 +109,13 @@ hr{
 .section{
     padding: 2rem;
 }
+
 .section h1{
     text-align: center;
+}
+
+.ml {
+    margin-left: 30%;
 }
 
 .ow{
@@ -133,3 +143,4 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+ 
